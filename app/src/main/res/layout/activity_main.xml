@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="大家都在搜:"
+        android:textSize="20dp"
+        />
+
+    <com.bwei.liumeichao_exam1.FlowLayout
+        android:id="@+id/flowLayaout"
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/tv_mianshi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="面试"
+            android:gravity="center"
+            android:textColor="@color/colorPrimary"
+            android:textSize="20dp"
+            />
+
+        <TextView
+            android:id="@+id/tv_Studio3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Studio3"
+            android:gravity="center"
+            android:textColor="#f00"
+            android:textSize="30dp"
+            />
+
+        <TextView
+            android:id="@+id/tv_donghua"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="动画"
+            android:gravity="center"
+            android:textColor="#44ff"
+            android:textSize="30dp"
+            />
+
+        <TextView
+            android:id="@+id/tv_xingnneg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="性能优化"
+            android:gravity="center"
+            android:textColor="#44ff44"
+            android:textSize="20dp"
+            />
+
+        <TextView
+            android:id="@+id/tv_ddd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="动画"
+            android:gravity="center"
+            android:textColor="#f00"
+            android:textSize="20dp"
+            />
+
+        <TextView
+            android:id="@+id/sudu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="性能优化速度"
+            android:gravity="center"
+            android:textColor="#f999"
+            android:textSize="20dp"
+            />
+
+        <TextView
+            android:id="@+id/tv_toutiao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="开发者头条"
+            android:gravity="center"
+            android:textColor="#44ff"
+            android:textSize="30dp"
+            />
+
+    </com.bwei.liumeichao_exam1.FlowLayout>
+</LinearLayout>
